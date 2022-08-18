@@ -1,0 +1,24 @@
+# number = 6
+# temp = False 
+# if number>1:
+#     for i in range (2, number):
+#         if (number % i ) == 0:
+#             temp = True
+#             break
+# if (temp):
+#     print("The given number", number, "is not prime number")
+# else:
+#     print("The give number", number, "is prime number")    
+
+number = 1
+temp = False 
+if number<1:
+    for i in range (9, number):
+        if (number % i )==0:
+            temp = True 
+            break
+if (temp):
+    print("the given number", number, "it not prime number")
+else:
+    print("the given number", number, "it prime number" )   
+     
